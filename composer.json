@@ -11,7 +11,7 @@
 		}
 	],
 	"support": {
-		"source": "http://gitlab.verbi.eu/verbi/yii2-oauth2-server"
+		"source": "http://github.com/verbi/yii2-oauth2-server"
 	},
 	"autoload": {
 		"psr-4": {
