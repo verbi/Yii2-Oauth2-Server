@@ -1,0 +1,27 @@
+{
+	"name": "verbi/yii2-oauth2-server",
+	"description": "Yii2 Oauth2 Server.",
+	"keywords": ["yii2", "extension", "oauth", "authentication"],
+	"type": "yii2-extension",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Philip Verbist",
+			"email": "philip.verbist@gmail.com"
+		}
+	],
+	"support": {
+		"source": "http://gitlab.verbi.eu/verbi/yii2-oauth2-server"
+	},
+	"autoload": {
+		"psr-4": {
+			"verbi\\yii2Oauth2Server\\": "src/"
+		}
+	},
+        "extra": {
+                "bootstrap": "verbi\\yii2Oauth2Server\\Bootstrap",
+                "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                }
+        }
+}
