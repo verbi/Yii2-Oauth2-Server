@@ -2,7 +2,6 @@
 
 namespace verbi\yii2Oauth2Server\clientAssertionTypes;
 
-use OAuth2\Storage\ClientCredentialsInterface;
 use OAuth2\RequestInterface;
 use OAuth2\ResponseInterface;
 
