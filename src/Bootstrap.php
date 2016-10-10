@@ -7,7 +7,7 @@ namespace verbi\yii2Oauth2Server;
  * @link https://github.com/verbi/Yii2-Oauth2-Server/
  * @license https://opensource.org/licenses/GPL-3.0
  */
-class Bootstrap extends \filsh\yii2\oauth2server\Bootstrap
+class Bootstrap implements \yii\base\BootstrapInterface
 {
     /**
      * @var array Model's map
@@ -25,10 +25,14 @@ class Bootstrap extends \filsh\yii2\oauth2server\Bootstrap
      */
     protected $_storageMap = [
         'access_token'          => '\verbi\yii2Oauth2Server\storages\GenericStorage',
+        'authorization_code'    => 'filsh\yii2\oauth2server\storage\Pdo',
         'client_credentials'    => '\verbi\yii2Oauth2Server\storages\GenericStorage',
         'client'                => '\verbi\yii2Oauth2Server\storages\GenericStorage',
         'refresh_token'         => '\verbi\yii2Oauth2Server\storages\GenericStorage',
         'user_credentials'      => '\verbi\yii2Oauth2Server\storages\GenericStorage',
+        'public_key'            => 'filsh\yii2\oauth2server\storage\Pdo',
+        'jwt_bearer'            => 'filsh\yii2\oauth2server\storage\Pdo',
+        'scope'  
     ];
     
     /**
