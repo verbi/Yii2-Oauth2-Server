@@ -13,6 +13,9 @@
 	"support": {
 		"source": "http://github.com/verbi/yii2-oauth2-server"
 	},
+        "require": {
+            "filsh/yii2-oauth2-server": "*"
+        },
 	"autoload": {
 		"psr-4": {
 			"verbi\\yii2Oauth2Server\\": "src/"
