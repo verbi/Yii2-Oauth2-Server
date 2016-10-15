@@ -19,7 +19,7 @@ use verbi\yii2Oauth2Server\helpers\RequestOrigin;
  * @link https://github.com/verbi/Yii2-Oauth2-Server/
  * @license https://opensource.org/licenses/GPL-3.0
  */
-class UserClientSecretToken extends \verbi\yii2ExtendedActiveRecord\db\XActiveRecord
+class UserClientSecretToken extends \verbi\yii2ExtendedActiveRecord\db\ActiveRecord
 {
     /**
      * @inheritdoc
