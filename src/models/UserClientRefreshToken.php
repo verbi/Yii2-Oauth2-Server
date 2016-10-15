@@ -20,7 +20,7 @@ use Yii;
  * @link https://github.com/verbi/Yii2-Oauth2-Server/
  * @license https://opensource.org/licenses/GPL-3.0
  */
-class UserClientRefreshToken extends \verbi\yii2ExtendedActiveRecord\db\XActiveRecord
+class UserClientRefreshToken extends \verbi\yii2ExtendedActiveRecord\db\ActiveRecord
 {
     /**
      * @inheritdoc
